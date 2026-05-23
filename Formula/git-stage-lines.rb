@@ -1,8 +1,8 @@
 class GitStageLines < Formula
   desc "Stage selected line ranges from Git diffs"
   homepage "https://github.com/aleclarson/git-stage-lines"
-  url "https://github.com/aleclarson/git-stage-lines/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "39e145201634ff43ef0fe59598d1568a67103c06c2c1c193d6fb536f5ff2dd8c"
+  url "https://github.com/aleclarson/git-stage-lines/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "65dd18f416386cab696fa4945120be8043ef86e3c271f2805601a287594223fa"
   license "MIT"
 
   depends_on "zig" => :build
