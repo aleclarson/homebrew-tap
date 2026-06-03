@@ -5,6 +5,12 @@ class GitStageLines < Formula
   sha256 "65dd18f416386cab696fa4945120be8043ef86e3c271f2805601a287594223fa"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/aleclarson/homebrew-tap/releases/download/git-stage-lines-0.2.2"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "e605d77f52b78d666eee5ac0ea4c330972bd6c01f55fdb067d66a18bcd31c004"
+  end
+
   depends_on "zig" => :build
   depends_on "git"
 
